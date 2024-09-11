@@ -1,9 +1,17 @@
+.main-navbar-container {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  width: 100%;
+  align-items: center;
+  justify-content: end;
+  margin-right: 30px;
+}
+
 .navbar-container {
   display: flex;
   flex-direction: row;
   gap: 30px;
-  position: absolute;
-  right: 20px;
 }
 
 .home-box, .about-box, .resume-box {
@@ -12,6 +20,10 @@
   gap: 7px;
   align-items: center;
   justify-content: center;
+}
+
+.git-icon-box {
+  margin-right: 30px;
 }
 
 .home, .about, .resume {

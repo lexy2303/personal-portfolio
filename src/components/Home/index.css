@@ -7,6 +7,24 @@ h1 {
   width: 650px;
   height: 650px;
   position: absolute;
-  right: 100px;
+  right: 50px;
   top: 100px;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  /* position: absolute; */
+  gap: -30px;
+  top: 300px;
+  left: 100px;
+}
+
+.header {
+  color: white;
+  font-size: 40px;
+}
+
+span {
+  color:rgb(161, 83, 217);
 }

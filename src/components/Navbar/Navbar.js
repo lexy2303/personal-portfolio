@@ -2,6 +2,7 @@ import React from "react";
 import HomeIcon from '@mui/icons-material/Home';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import FilePresentIcon from '@mui/icons-material/FilePresent';
+import GitHubIcon from '@mui/icons-material/GitHub';
 
 import './index.css';
 
@@ -21,6 +22,9 @@ const Navbar = () => {
           <FilePresentIcon sx={{width: '25px', height: '25px', color: 'white'}}/>
           <div className="resume">Resume</div>
         </div>
+      </div>
+      <div className="git-icon-box">
+        <GitHubIcon sx={{width: '25px', height: '25px', color: 'white'}}/>
       </div>
     </div>
   )

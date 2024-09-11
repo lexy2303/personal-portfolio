@@ -1,0 +1,10 @@
+.header-container {
+  display: flex;
+  position: absolute;
+  top: 200px;
+}
+
+.header {
+  color: white;
+  font-size: 40px;
+}
