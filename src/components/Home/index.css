@@ -1,0 +1,12 @@
+h1 {
+  color: black;
+  font-size: large;
+}
+
+.lottie-animation {
+  width: 650px;
+  height: 650px;
+  position: absolute;
+  right: 100px;
+  top: 100px;
+}
