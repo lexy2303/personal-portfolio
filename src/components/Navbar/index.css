@@ -1,3 +1,16 @@
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 75px;
+}
+
+body {
+  font-weight: 400;
+  overflow-x: hidden;
+  position: relative;
+  background-color: #121212 !important;
+  color: #fff !important;
+}
+
 .main-navbar-container {
   display: flex;
   flex-direction: row;
@@ -6,6 +19,29 @@
   align-items: center;
   justify-content: end;
   margin-right: 30px;
+  margin-top: 20px;
+  position: fixed;
+  transition: 0.32 ease-in-out;
+}
+
+.scrolled {
+  background-color: #121212;
+}
+
+.navbar-link {
+  color: #fff;
+  width: 100%;
+  font-size: 20px;
+  letter-spacing: 1px;
+  position: relative;
+  transition: 0.3s ease-in-out;
+  text-align: center;
+  text-decoration: none;
+  z-index: 0;
+}
+
+.navbar-link.active {
+  text-decoration: underline;
 }
 
 .navbar-container {
@@ -26,7 +62,8 @@
   margin-right: 30px;
 }
 
-.home, .about, .resume {
+/* .home, .about, .resume {
   color: white;
   font-size: 20px;
-}
+  text-decoration: none;
+} */
